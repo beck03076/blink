@@ -1,0 +1,24 @@
+<h1>Blinker Woman</h1>
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<%= text_field_tag "blink_text",
+  nil,
+  placeholder: "Not ready to blink yet!",
+  class: 'blink_text'
+%>
+
+<br/>
+
+<%= button_tag "Blink", class: 'blink_button', onclick: 'Blink();' %>
+
+<div class='result'>
+</div>

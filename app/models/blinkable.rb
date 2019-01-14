@@ -1,0 +1,2 @@
+class Blinkable < ApplicationRecord
+end
